@@ -1,0 +1,381 @@
+{
+  "scope": {
+    "period": "2015-01-01 to 2017-09-30 (analysis window)",
+    "grain_note": "orders = distinct order ids; items = order lines",
+    "sales_definition": "net sales = order item total (after discount)",
+    "late_rate_definition": "late items / delivered items; canceled shipments excluded"
+  },
+  "kpis": {
+    "order_items": 171962,
+    "orders": 57349,
+    "net_sales": 30774233.92,
+    "total_profit": 3685985.03,
+    "profit_margin_pct": 11.98,
+    "avg_order_value": 536.61,
+    "late_delivery_rate_pct": 57.28,
+    "canceled_items_pct": 4.3,
+    "avg_scheduled_days": 2.93,
+    "avg_actual_days": 3.5
+  },
+  "by_year": [
+    {
+      "year": 2015,
+      "orders": 20904,
+      "net_sales": 11089543.55
+    },
+    {
+      "year": 2016,
+      "orders": 20859,
+      "net_sales": 11055996.76
+    },
+    {
+      "year": 2017,
+      "orders": 15586,
+      "net_sales": 8628693.6
+    }
+  ],
+  "by_market": [
+    {
+      "market": "LATAM",
+      "orders": 17181,
+      "net_sales": 9235762.09,
+      "profit": 1123321.61,
+      "margin_pct": 12.16,
+      "share_of_net_sales_pct": 30.01
+    },
+    {
+      "market": "Europe",
+      "orders": 15778,
+      "net_sales": 8621963.04,
+      "profit": 1036634.09,
+      "margin_pct": 12.02,
+      "share_of_net_sales_pct": 28.02
+    },
+    {
+      "market": "Pacific Asia",
+      "orders": 11957,
+      "net_sales": 6301329.47,
+      "profit": 709644.37,
+      "margin_pct": 11.26,
+      "share_of_net_sales_pct": 20.48
+    },
+    {
+      "market": "USCA",
+      "orders": 8579,
+      "net_sales": 4553499.92,
+      "profit": 564313.78,
+      "margin_pct": 12.39,
+      "share_of_net_sales_pct": 14.8
+    },
+    {
+      "market": "Africa",
+      "orders": 3854,
+      "net_sales": 2061679.39,
+      "profit": 252071.18,
+      "margin_pct": 12.23,
+      "share_of_net_sales_pct": 6.7
+    }
+  ],
+  "top_10_categories": [
+    {
+      "category_name": "Fishing",
+      "orders": 15148,
+      "net_sales": 6220843.62,
+      "profit": 754713.2,
+      "margin_pct": 12.13,
+      "share_of_net_sales_pct": 20.21
+    },
+    {
+      "category_name": "Cleats",
+      "orders": 20356,
+      "net_sales": 3976231.54,
+      "profit": 493683.82,
+      "margin_pct": 12.42,
+      "share_of_net_sales_pct": 12.92
+    },
+    {
+      "category_name": "Camping & Hiking",
+      "orders": 12286,
+      "net_sales": 3696813.42,
+      "profit": 426775.19,
+      "margin_pct": 11.54,
+      "share_of_net_sales_pct": 12.01
+    },
+    {
+      "category_name": "Cardio Equipment",
+      "orders": 11335,
+      "net_sales": 3314619.78,
+      "profit": 381582.6,
+      "margin_pct": 11.51,
+      "share_of_net_sales_pct": 10.77
+    },
+    {
+      "category_name": "Women's Apparel",
+      "orders": 17844,
+      "net_sales": 2825168.5,
+      "profit": 350248.07,
+      "margin_pct": 12.4,
+      "share_of_net_sales_pct": 9.18
+    },
+    {
+      "category_name": "Water Sports",
+      "orders": 13736,
+      "net_sales": 2793552.43,
+      "profit": 324759.01,
+      "margin_pct": 11.63,
+      "share_of_net_sales_pct": 9.08
+    },
+    {
+      "category_name": "Men's Footwear",
+      "orders": 18754,
+      "net_sales": 2594716.94,
+      "profit": 311613.45,
+      "margin_pct": 12.01,
+      "share_of_net_sales_pct": 8.43
+    },
+    {
+      "category_name": "Indoor/Outdoor Games",
+      "orders": 16603,
+      "net_sales": 2593264.06,
+      "profit": 318238.39,
+      "margin_pct": 12.27,
+      "share_of_net_sales_pct": 8.43
+    },
+    {
+      "category_name": "Shop By Sport",
+      "orders": 10127,
+      "net_sales": 1176266.86,
+      "profit": 129548.65,
+      "margin_pct": 11.01,
+      "share_of_net_sales_pct": 3.82
+    },
+    {
+      "category_name": "Electronics",
+      "orders": 3061,
+      "net_sales": 333327.26,
+      "profit": 40891.38,
+      "margin_pct": 12.27,
+      "share_of_net_sales_pct": 1.08
+    }
+  ],
+  "top_5_regions": [
+    {
+      "order_region": "Central America",
+      "orders": 9396,
+      "net_sales": 5093849.72,
+      "profit": 616341.57,
+      "margin_pct": 12.1,
+      "share_of_net_sales_pct": 16.55
+    },
+    {
+      "order_region": "Western Europe",
+      "orders": 8395,
+      "net_sales": 4631249.17,
+      "profit": 551026.66,
+      "margin_pct": 11.9,
+      "share_of_net_sales_pct": 15.05
+    },
+    {
+      "order_region": "South America",
+      "orders": 4979,
+      "net_sales": 2660243.69,
+      "profit": 335154.4,
+      "margin_pct": 12.6,
+      "share_of_net_sales_pct": 8.64
+    },
+    {
+      "order_region": "Northern Europe",
+      "orders": 3114,
+      "net_sales": 1687478.67,
+      "profit": 204373.0,
+      "margin_pct": 12.11,
+      "share_of_net_sales_pct": 5.48
+    },
+    {
+      "order_region": "Southern Europe",
+      "orders": 2977,
+      "net_sales": 1606928.02,
+      "profit": 201517.38,
+      "margin_pct": 12.54,
+      "share_of_net_sales_pct": 5.22
+    }
+  ],
+  "top_5_countries_share_of_net_sales_pct": 39.26,
+  "losses": {
+    "loss_making_items": 32179,
+    "loss_making_items_pct": 18.71,
+    "loss_amount": -3617894.11,
+    "profit_before_losses": 7303879.14
+  },
+  "shipping_modes": [
+    {
+      "shipping_mode": "First Class",
+      "delivered_items": 25270,
+      "late_rate_pct": 100.0,
+      "avg_scheduled_days": 1.0,
+      "avg_actual_days": 2.0
+    },
+    {
+      "shipping_mode": "Second Class",
+      "delivered_items": 32188,
+      "late_rate_pct": 79.81,
+      "avg_scheduled_days": 2.0,
+      "avg_actual_days": 3.99
+    },
+    {
+      "shipping_mode": "Same Day",
+      "delivered_items": 8851,
+      "late_rate_pct": 47.71,
+      "avg_scheduled_days": 0.0,
+      "avg_actual_days": 0.48
+    },
+    {
+      "shipping_mode": "Standard Class",
+      "delivered_items": 98263,
+      "late_rate_pct": 39.78,
+      "avg_scheduled_days": 4.0,
+      "avg_actual_days": 3.99
+    }
+  ],
+  "same_day_late_rate_by_order_time_pct": [
+    {
+      "ordered": "before noon",
+      "late": 0.0
+    },
+    {
+      "ordered": "noon or later",
+      "late": 100.0
+    }
+  ],
+  "customers": {
+    "customers": 12330,
+    "orders_per_customer": 4.65,
+    "repeat_customers_pct": 95.42,
+    "new_customers_by_first_order_year": {
+      "2015": 10131,
+      "2016": 1895,
+      "2017": 304
+    },
+    "segments": [
+      {
+        "customer_segment": "Consumer",
+        "customers": 6409,
+        "orders": 29789,
+        "net_sales": 15966545.68,
+        "net_sales_per_customer": 2491.27,
+        "late_rate_pct": 57.33
+      },
+      {
+        "customer_segment": "Corporate",
+        "customers": 3709,
+        "orders": 17304,
+        "net_sales": 9330099.24,
+        "net_sales_per_customer": 2515.53,
+        "late_rate_pct": 57.08
+      },
+      {
+        "customer_segment": "Home Office",
+        "customers": 2212,
+        "orders": 10256,
+        "net_sales": 5477589.0,
+        "net_sales_per_customer": 2476.31,
+        "late_rate_pct": 57.49
+      }
+    ]
+  },
+  "caveats": [
+    "Data after 2017-09-30 has a different structure (about one item per order, much lower net sales) and is excluded.",
+    "Each market sold mainly in separate blocks of months, so market totals reflect active months, not demand; do not compare markets by volume or growth.",
+    "Losses (about 1 in 5 items) are equally frequent across discount levels, shipping modes, segments, markets and categories; no available field explains them. No cost data exists.",
+    "Delivery fields look simulated (for example First Class always takes 2 days against a 1-day promise); treat delivery findings as indicative.",
+    "No supplier or inventory data exists, so supplier and inventory questions cannot be answered.",
+    "Department names do not map cleanly to categories.",
+    "Customers are located only in the US and Puerto Rico while orders ship to five global markets."
+  ],
+  "late_risk_model_test_results_2017": [
+    {
+      "method": "Always predict late",
+      "accuracy": 0.5695,
+      "precision_late": 0.5695,
+      "recall_late": 1.0,
+      "auc": 0.5
+    },
+    {
+      "method": "Shipping mode only",
+      "accuracy": 0.6934,
+      "precision_late": 0.8819,
+      "recall_late": 0.533,
+      "auc": 0.7404
+    },
+    {
+      "method": "Rule: mode + Same Day noon cutoff",
+      "accuracy": 0.7219,
+      "precision_late": 0.891,
+      "recall_late": 0.583,
+      "auc": 0.7443
+    },
+    {
+      "method": "Gradient boosting (3 features)",
+      "accuracy": 0.7219,
+      "precision_late": 0.891,
+      "recall_late": 0.583,
+      "auc": 0.7737
+    }
+  ],
+  "baseline_forecast": [
+    {
+      "month": "2017-10-01",
+      "metric": "orders",
+      "method": "Average of all months",
+      "forecast": 1737.85,
+      "lower": 1639.4,
+      "upper": 1836.3,
+      "actual_if_available": 2101.0
+    },
+    {
+      "month": "2017-11-01",
+      "metric": "orders",
+      "method": "Average of all months",
+      "forecast": 1737.85,
+      "lower": 1639.4,
+      "upper": 1836.3,
+      "actual_if_available": 2055.0
+    },
+    {
+      "month": "2017-12-01",
+      "metric": "orders",
+      "method": "Average of all months",
+      "forecast": 1737.85,
+      "lower": 1639.4,
+      "upper": 1836.3,
+      "actual_if_available": 2124.0
+    },
+    {
+      "month": "2017-10-01",
+      "metric": "net_sales",
+      "method": "Average of last 3 months",
+      "forecast": 1005347.68,
+      "lower": 941963.42,
+      "upper": 1068731.94,
+      "actual_if_available": 966081.4098
+    },
+    {
+      "month": "2017-11-01",
+      "metric": "net_sales",
+      "method": "Average of last 3 months",
+      "forecast": 1005347.68,
+      "lower": 941963.42,
+      "upper": 1068731.94,
+      "actual_if_available": 563393.4701
+    },
+    {
+      "month": "2017-12-01",
+      "metric": "net_sales",
+      "method": "Average of last 3 months",
+      "forecast": 1005347.68,
+      "lower": 941963.42,
+      "upper": 1068731.94,
+      "actual_if_available": 452741.5309
+    }
+  ]
+}

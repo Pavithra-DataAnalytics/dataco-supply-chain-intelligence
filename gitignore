@@ -1,0 +1,13 @@
+# Raw data (large and may have license limits)
+DataCo.xlsx
+*.xlsx
+# Regenerable outputs
+late_risk_scores.csv
+insights_prompt.txt
+charts/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Power BI cache
+*.pbix.tmp

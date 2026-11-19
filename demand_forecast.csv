@@ -1,0 +1,7 @@
+month,metric,method,forecast,lower,upper,actual_if_available
+2017-10-01,orders,Average of all months,1737.85,1639.4,1836.3,2101.0
+2017-11-01,orders,Average of all months,1737.85,1639.4,1836.3,2055.0
+2017-12-01,orders,Average of all months,1737.85,1639.4,1836.3,2124.0
+2017-10-01,net_sales,Average of last 3 months,1005347.68,941963.42,1068731.94,966081.409769428
+2017-11-01,net_sales,Average of last 3 months,1005347.68,941963.42,1068731.94,563393.47010096
+2017-12-01,net_sales,Average of last 3 months,1005347.68,941963.42,1068731.94,452741.530874991
