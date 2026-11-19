@@ -2,7 +2,8 @@
 
 An end-to-end analytics project on the public DataCo supply chain dataset, built with **SQL (PostgreSQL), Python, Power BI and AI**. SQL, Python and Power BI reproduce the same KPIs, and the AI components were tested honestly, including the ideas that did not work.
 
-!\[Executive Overview](powerbi/screenshots/01\_executive\_overview.png)
+!\[Executive Overview]<img width="869" height="489" alt="Supply Chain 1" src="https://github.com/user-attachments/assets/c4b5fcbd-b801-4be7-9a17-cbbe727e91cb" />
+
 
 ## Headline results (Jan 2015 to Sep 2017)
 
@@ -38,6 +39,13 @@ The order date column in `DataCo.xlsx` mixes two formats: 109,416 text dates, an
 ## Power BI dashboard (6 pages)
 
 Executive Overview, Product Intelligence, Shipping \& Logistics, Customer Intelligence, Regional Analysis, AI Insights. Screenshots are in `powerbi/screenshots/`.
+<img width="869" height="489" alt="Supply Chain 1" src="https://github.com/user-attachments/assets/1665d7a9-7153-40d9-bbe3-1d887eacd827" />
+<img width="867" height="487" alt="Supply Chain 2" src="https://github.com/user-attachments/assets/67e3c8d6-ac7c-432c-9263-859c67d03453" />
+<img width="869" height="488" alt="Supply Chain 3" src="https://github.com/user-attachments/assets/eb23eb57-be3a-41cb-99cc-870164b79992" />
+<img width="871" height="488" alt="Supply Chain 4" src="https://github.com/user-attachments/assets/058d98fc-430a-40a6-b4ae-512d68454c4b" />
+<img width="873" height="486" alt="Supply chain 5" src="https://github.com/user-attachments/assets/e36ff9d6-64ef-41ae-b692-49c6dfdcd860" />
+<img width="869" height="489" alt="Supply chain 6" src="https://github.com/user-attachments/assets/d130a9b5-2425-4f5f-912c-f53f3073b734" />
+
 
 ## Repository structure
 
@@ -75,7 +83,7 @@ docs/       final\\\_report.pdf                 full project report
 
 ## Data
 
-Public DataCo Smart Supply Chain dataset. Add the link to where you downloaded it here: `\\\[dataset link]`. The raw file is not included in this repository; check the source page for its license.
+Public DataCo Smart Supply Chain dataset.(https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
 
 ## Author
 
